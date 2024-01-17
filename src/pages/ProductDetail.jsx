@@ -3,7 +3,7 @@ import React from "react";
 import { useLocation,} from "react-router-dom";
 import { Container, Row, Col, Image,Button,Carousel} from "react-bootstrap";
 import { CartContext } from "../context/CartContext";
-import { useContext } from "react";
+import { useContext,useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -30,6 +30,9 @@ const ProductDetail = () => {
   const handleAddToCart = () => {
     addToCart(product);
   };
+   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
 return (
     <Container className='mt-5' fluid>
@@ -52,7 +55,7 @@ return (
                     src={image}
                     alt={`Product Image ${index + 1}`}
                     style={{
-                       objectFit: "contain", 
+                       objectFit: "fill", 
                        height: "400px",
                        width:"500px",
                       }}

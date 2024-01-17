@@ -16,11 +16,12 @@ const CategoryAccordions = ({ mainCategory }) => {
       "SeasonalMinorFruits"
     ],
     Beauty: [
-      "makeup",
-      "skincare"
+      "MakeUp",
+      "SkinCare",
+      "Hair"
     ],
     SportsToysLuggages: ["BagsTravelLuggages"],
-    HomeAndKitchenNeeds: [
+    HomeKitchenNeeds: [
       "Kitchenware",
       "HomeDecor",
       "Furniture",
@@ -51,8 +52,9 @@ const CategoryAccordions = ({ mainCategory }) => {
     PomegranatePapayaPineapple:["pomegranates","papayas","pineapples"],
     SeasonalMinorFruits:["guavas","custardapples"],
     //beauty
-    makeup: ["Lips", "Nails", "Eyes", "FaceMakeUp", "MakeupToolsBrushes"],
-    skincare:["Serum", "FaceMask", "Moisturizers"],
+    MakeUp: ["Lips", "Nails", "Eyes", "FaceMakeUp", "MakeupToolsBrushes"],
+    SkinCare:["Serum", "FaceMask", "Moisturizers"],
+    Hair:[" HairCare", "HairColor", "HairStyling","HairToolAndAccessories","ScalpTreatments","ShopByHairType"],
     //sportstoysluggages
     BagsTravelLuggages: [
       "BagsAndBackpacks",

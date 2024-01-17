@@ -3738,7 +3738,7 @@ export const Beauty = {
         productId: 60729,
       }
     ],
-    hairCare: [
+    HairCare: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/940283/l-oreal-paris-dream-lengths-shampoo-192-5-ml-prod-940283-0-202302250607.jpg?im=Resize=(600,600)",
@@ -4106,7 +4106,7 @@ export const Beauty = {
         productId: 60742,
       },
     ],
-    hairColor: [
+    HairColor: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/940228/l-oreal-paris-excellence-creme-hair-color-4-natural-brown-100gm-72ml-prod-940228-0-202311220831.jpg?im=Resize=(600,600)",
@@ -4376,7 +4376,7 @@ export const Beauty = {
         productId: 60751,
       },
     ],
-    hairStyling: [
+    HairStyling: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/1053284/l-oreal-paris-magic-retouch-instant-root-concealer-spray-dark-brown-75ml-prod-1053284-0-202311220910.jpg?im=Resize=(600,600)",
@@ -4631,7 +4631,7 @@ export const Beauty = {
         productId: 60760,
       },
     ],
-    hairToolAndAccessories: [
+    HairToolAndAccessories: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/996875/gubb-oval-hair-brush-mini-scottish-range-80-gm-prod-996875-1-202307010937.jpg?im=Resize=(600,600)",
@@ -4871,7 +4871,7 @@ export const Beauty = {
         productId: 60769,
       },
     ],
-    scalpTreatments: [
+    ScalpTreatments: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/1017136/men-deserve-hair-styling-cream-strong-hold-100-gm-prod-1017136-0-202211211918.jpg?im=Resize=(600,600)",
@@ -5124,7 +5124,7 @@ export const Beauty = {
         productId: 60778,
       },
     ],
-    shopByHairType: [
+    ShopByHairType: [
       {
         productImage: [
           "https://www.jiomart.com/images/product/original/1008053/azafran-organics-aqua-halo-scalp-rejuv-shampoo-200-gm-prod-1008053-0-202203281639.jpg?im=Resize=(600,600)",

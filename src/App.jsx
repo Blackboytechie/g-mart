@@ -10,12 +10,11 @@ import { SportsToysLuggages } from "./utils/sportstoysluggages"; //sportstoysLug
 import MainCategory from "./pages/MainCategory";
 import Header from "./components/Header";
 import ProductDetail from "./pages/ProductDetail";
-
 import TopNavbar from "./components/navbar/TopNavbar";
-
 import { Fashion } from "./utils/Fashion"; //fashion
 import { Electronics } from "./utils/electronics"; //electronics
 import AllCatogries from "./pages/AllCatogries";
+import { HomeKitchenNeeds } from "./utils/HomeKitchenNeeds";//homekitchen
 
 
 function App() {
@@ -111,6 +110,23 @@ function App() {
           />
           <Route
             path="/SportsToysLuggages/:category/:subcategory/:product"
+            element={<ProductDetail />}
+          />
+           {/*homekitchen routings */}
+           <Route
+            path="/HomeKitchenNeeds"
+            element={<MainCategory products={HomeKitchenNeeds} />}
+          />
+          <Route
+            path="/HomeKitchenNeeds/:category"
+            element={<Category products={HomeKitchenNeeds} />}
+          />
+          <Route
+            path="/HomeKitchenNeeds/:category/:subcategory"
+            element={<SubCategory products={HomeKitchenNeeds} />}
+          />
+          <Route
+            path="/HomeKitchenNeeds/:category/:subcategory/:product"
             element={<ProductDetail />}
           />
               <Route path="/cart" element={<Cart/>}/>
