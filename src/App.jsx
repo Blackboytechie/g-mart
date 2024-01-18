@@ -45,8 +45,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-
-          <Route path="/ab" element={<About />} />
+          <Route path="/about" element={<About />} />
            <Route path="/guide" element={<Guide />} />
 
           {/* premiumfruits routings */}

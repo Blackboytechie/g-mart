@@ -87,7 +87,7 @@ function Sidenavbar({sidebar,showsidebar}) {
                 </Link>
               </li>
               <li className='nav-section-list-item divider-h'>
-                <Link className='d' to='/ab'>
+                <Link className='d' to='/about'>
                 <img className='icon jm' width={24} title='about' height={24} src="https://img.icons8.com/sf-black-filled/64/0078ad/conference-call.png" alt="conference-call"/>
                   <span className='nav-section-list-title word'>About Us</span>
                 </Link>
