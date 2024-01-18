@@ -23,7 +23,8 @@ import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
 import Search from "./pages/Search";
 import About from "./pages/About";
-import Dropdown from "./pages/Dropdown";
+import Guide from "./pages/Guide";
+
 
 
 function App() {
@@ -45,7 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ab" element={<About />} />
-           <Route path="/guide" element={<Dropdown />} />
+           <Route path="/guide" element={<Guide />} />
      
           {/* premiumfruits routings */}
           <Route

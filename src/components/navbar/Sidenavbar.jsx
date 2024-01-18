@@ -42,7 +42,7 @@ function Sidenavbar({sidebar,showsidebar}) {
                   </Link>
               </li>
               <li className='nav-section-list-item divider-h'>
-              <Link className='d' to='/shop-by-category'>
+              <Link className='d' to='/allcategory'>
                 <img className='icon jm' width="24" height="24"src="https://img.icons8.com/sf-black/64/0078ad/bulleted-list.png" alt="bulleted-list"/>
                   <span className='nav-section-list-title word'>Shop By category</span>
                   </Link>
@@ -54,7 +54,7 @@ function Sidenavbar({sidebar,showsidebar}) {
             
             <ul className='nav-section-list' onClick={showsidebar}>
               <li className='nav-section-list-item divider-h'>
-                <Link className='d' to='/my-order'>
+                <Link className='d' to='/cart'>
                   <img className='icon jm' width={24} height={24} src="https://img.icons8.com/external-flat-icons-inmotus-design/67/0078ad/external-box-box-flat-icons-inmotus-design-3.png" alt="external-box-box-flat-icons-inmotus-design-3"/>
                   <span className='nav-section-list-title word'>My Orders</span>
                 </Link>
@@ -75,31 +75,7 @@ function Sidenavbar({sidebar,showsidebar}) {
             </ul>
           </div>
 
-          {/* <div className='nav-section'>
-            <div className='nav-section-title'>Offer & More</div>
-            
-            <ul className='nav-section-list' onClick={showsidebar}>
-              <li className='nav-section-list-item divider-h'>
-                <Link className='d' to='/offer-store'>
-                  <img className='icon jm' width={24} height={24} src="https://img.icons8.com/glyph-neue/64/0078ad/discount.png" alt="discount"/>
-                  <span className='nav-section-list-title word'>Offer Store</span>
-                </Link>
-              </li>
-              <li className='nav-section-list-item divider-h'>
-                <Link className='d' to='/coupon-store'>
-                <img className='icon jm' width={24} height={24} src="https://img.icons8.com/ios-filled/50/0078ad/loyalty-card.png" alt="loyalty-card"/>
-                  <span className='nav-section-list-title word'>Coupon Store</span>
-                </Link>
-              </li>
-              <li className='nav-section-list-item divider-h'>
-                <Link className='d' to='/gift-store'>
-                  <img className='icon jm' width={24} height={24} src="https://img.icons8.com/glyph-neue/64/0078ad/gift.png" alt="gift"/>
-                  <span className='nav-section-list-title word'>Gift Store</span>
-                </Link>
-              </li>
-            </ul>
-          </div> */}
-
+          
           <div className='nav-section'>
             <div className='nav-section-title'>Help & Support</div>
             

@@ -1,19 +1,19 @@
-/* Custom styling for the React accordion */
-.accordion-item {
+/* Custom styling for the React accordions */
+.accordions-item {
   border-bottom: 1px solid #ddd;
   margin-bottom: 10px;
 margin-right: 150px;
 margin-left: 150px;
 
 }
-.accordion-itemx {
+.accordions-itemx {
   border: 1px solid #ddd;
   margin-bottom: 10px;
 margin-right: 150px;
 margin-left: 150px;
 
 }
-.accordion-headerx {
+.accordions-headerx {
   position: relative;
   padding: 10px;
   cursor: pointer;
@@ -25,7 +25,7 @@ margin-left: 150px;
   transition: background 3s ease;
   
 }
-.accordion-header {
+.accordions-header {
   position: relative;
   padding: 10px;
   cursor: pointer;
@@ -38,7 +38,7 @@ margin-left: 150px;
   
 }
 
-.accordion-header::after {
+.accordions-header::after {
   content: '⮙'; /* Unicode for down arrow */
   font-size: 13px;
   color: #006d85;
@@ -48,16 +48,16 @@ margin-left: 150px;
   transform: translateY(-50%);
 }
 
-.accordion-content {
+.accordions-content {
   padding: 10px;
  
 }
 
-.accordion-content iframe {
+.accordions-content iframe {
   width: 100%;
 }
 
-.accordion-item.active .accordion-header {
+.accordions-item.active .accordions-header {
   background-color: #f1f2f3;
   color: #666;
 }
@@ -65,11 +65,11 @@ margin-left: 150px;
   text-align: left;
   margin-left: 155px;
 }
-.accordion-item.active .accordion-content {
+.accordions-item.active .accordions-content {
   display: block;
 }
 @media screen and (max-width:745px) {
-  .accordion-item {
+  .accordions-item {
     border: 1px solid #ddd;
     margin-bottom: 10px;
   margin-right: 25px;
@@ -78,7 +78,7 @@ margin-left: 150px;
   }
 }
 @media screen and (max-width:1225px) {
-  .accordion-item {
+  .accordions-item {
     border: 1px solid #ddd;
     margin-bottom: 10px;
   margin-right: 35px;

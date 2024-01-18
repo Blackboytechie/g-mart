@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './guide.css';
 import { Link } from 'react-router-dom';
-const Accordion = () => {
+const Guide = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleAccordionClick = (index) => {
@@ -63,22 +63,22 @@ const Accordion = () => {
   return (
     <div>
       <h5 className='title'>how to buy an G-mart</h5>
-      <Link to='/faq'><div className='accordion-headerx accordion-itemx'
+      <Link to='/faq'><div className='accordions-headerx accordions-itemx'
       onClick={() => handleAccordionClick(index)}
       >
 FAQ
       </div></Link>
       <h5 className='title'>Watch in your language</h5>
       {accordionData.map((item, index) => (
-        <div key={index} className="accordion-item">
+        <div key={index} className="accordions-item">
           <div
-            className={`accordion-header ${activeIndex === index ? 'active' : ''}`}
+            className={`accordions-header ${activeIndex === index ? 'active' : ''}`}
             onClick={() => handleAccordionClick(index)}
           >
             {item.title}
           </div>
           {activeIndex === index && (
-            <div className="accordion-content">
+            <div className="accordions-content">
               <iframe
                 title={item.title}
                 width="560"
@@ -95,4 +95,4 @@ FAQ
   );
 };
 
-export default Accordion;
+export default Guide;
