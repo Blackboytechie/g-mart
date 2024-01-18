@@ -18,7 +18,7 @@ import TopNavbar from "./components/navbar/TopNavbar";
 import SubCategory from "./pages/SubCategory";
 import ProductDetail from "./pages/ProductDetail";
 import AllCatogries from "./pages/AllCatogries";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer"
 
 import Cart from "./pages/Cart";
 import Search from "./pages/Search";
@@ -45,9 +45,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+
           <Route path="/ab" element={<About />} />
            <Route path="/guide" element={<Guide />} />
-     
+
           {/* premiumfruits routings */}
           <Route
             path="/premiumfruits"
@@ -113,7 +114,7 @@ function App() {
             path="/Electronics/:category/:subcategory/:product"
             element={<ProductDetail />}
           />
-
+          
           {/*HomeKitchenNeeds routings */}
           <Route
             path="/HomeKitchenNeeds"
@@ -131,7 +132,7 @@ function App() {
             path="/HomeKitchenNeeds/:category/:subcategory/:product"
             element={<ProductDetail />}
           />
-          {/* sportsToysLuggages */}
+           {/* sportsToysLuggages */}
           <Route
             path="/SportsToysLuggages"
             element={<MainCategory products={SportsToysLuggages} />}
@@ -178,7 +179,6 @@ function App() {
             path="/search/:searchTerm/:productId"
             element={<ProductDetail />}
           />
-      
           {/* cart */}
           <Route path="/cart" element={<Cart />} />
           {/* allcategory */}
@@ -186,6 +186,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+    
     </>
   );
 }

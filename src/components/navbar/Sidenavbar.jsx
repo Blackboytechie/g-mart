@@ -75,7 +75,7 @@ function Sidenavbar({sidebar,showsidebar}) {
             </ul>
           </div>
 
-          
+
           <div className='nav-section'>
             <div className='nav-section-title'>Help & Support</div>
             
